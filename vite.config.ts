@@ -10,5 +10,6 @@ export default defineConfig({
   },
   preview: {
     host: '0.0.0.0',
+    allowedHosts: ['dev-contador.hermes.numaris.com'],
   },
 })
